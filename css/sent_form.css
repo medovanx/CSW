@@ -1,0 +1,15 @@
+/*button color*/
+.back {
+  background: #000000;
+  color:white;
+  border-radius: 20px;
+  padding: 10 20;
+  /*back icon in middle of button*/
+  vertical-align: middle;
+}
+
+/*Button color when hovered*/
+.back:hover {
+  background: #04AA6D;
+  color: white;
+}

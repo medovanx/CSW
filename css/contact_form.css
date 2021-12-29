@@ -1,0 +1,61 @@
+  /* Select all form inputs with type text and email and also include (textarea) for subject*/
+  form input[type="text"], input[type="email"], select, textarea {
+    /*fixed width*/
+    width: 100%;
+    /*input area border*/
+    border: 1px solid #04AA6D;
+    /* Rounded borders */
+    border-radius: 15px;
+    /*text padding from border*/
+    padding: 14px;
+    /*space between input label and area text*/
+    margin-top: 6px;
+    margin-bottom: 18px;
+    outline: none;
+  }
+
+  textarea {
+    /* Allow the user to resize the textarea, value here is disabled */
+    resize: none;
+    font-family: sans-serif;
+  }
+
+  /* Style the submit button with a specific background color etc */
+  form input[type=submit] {
+    background-color: #000000;
+    /*text color on button*/
+    color: white;
+  /*size*/
+    padding: 12px 20px; 
+    border-radius: 20px;
+  /*remove button border*/
+    border: none;
+  /*change cursor on hover*/    
+    cursor: pointer;
+    font-size: 20px;
+    /*fixed button size*/
+    width: 100%;
+  }
+
+  /* When moving the mouse over the submit button, change color */
+  form input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #89e6bf;
+    padding: 20 50;
+    /*fixed container width*/
+    width: 600px;
+    margin: 50 auto;
+  }
+  
+  /*Contact Us text positioning*/
+  .form-header {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+  }
