@@ -46,10 +46,10 @@
   .container {
     border-radius: 5px;
     background-color: #89e6bf;
-    padding: 20 50;
+    padding: 20px 50px;
     /*fixed container width*/
     width: 600px;
-    margin: 50 auto;
+    margin: 50px auto;
   }
   
   /*Contact Us text positioning*/
