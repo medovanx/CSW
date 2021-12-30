@@ -39,7 +39,7 @@
 
   /* When moving the mouse over the submit button, change color */
   form input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #17bb7a;
   }
 
   /* Add a background color and some padding around the form */

@@ -66,6 +66,7 @@ background: #009879;
 white-space: nowrap;
 }
 
+/*hovering over details button*/
 button:hover{
 cursor: pointer;
 background:#4dbda7;
