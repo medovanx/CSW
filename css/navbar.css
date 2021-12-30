@@ -10,8 +10,9 @@ header {
   box-shadow: 0px 2px 2px 3px #009879;
   height: 80px;
   background-color: #282A35;
-  /*make the white space with no wrap(line break)*/
+  /*prevent line break between icon and text*/
   white-space: nowrap;
+  /*flex for ul*/
   display: flex;
   /*vertically align tabs*/
   align-items: center;
@@ -29,7 +30,7 @@ header ul {
   margin-right: 160px;
   /*make a gap between lists, (we need flex)*/
   /*gap: row-gap column-gap;*/
-  gap: 0 20px;
+  gap: 0 20px;  
 }
 
 header li {
@@ -73,3 +74,4 @@ header img {
   margin-left: 160px;
   height: 60px;
 }
+

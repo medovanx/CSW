@@ -3,12 +3,14 @@
   /*removing the borders between the cells*/
   border-collapse: collapse;
   font-size: 14px;
-  /*minimum width for the table */
-  /*If the content is smaller than the minimum width, the minimum width will be applied*/
-  min-width: 400px;
   /*table shadow*/
   box-shadow: 0 6px 5px 1px rgba(0, 0, 0, 0.15);
-  margin-top: 40px;
+  margin-top: 40px ;
+}
+
+table{
+  width: 70%;
+  height: 60%;
 }
 
 /*styling of the row heads*/
@@ -22,7 +24,7 @@
 /*cells size*/
 .job_table th,
 .job_table td {
-  padding: 25px 30px;
+  padding: 25px 25px;
 }
 
 /*body of the sub heads*/
@@ -61,6 +63,7 @@ button{
   font-size: 14px;
   border: none;
   background: #009879;
+  white-space: nowrap;
 }
 
 button:hover{
