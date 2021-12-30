@@ -1,74 +1,74 @@
 /*main table styles*/
-.job_table {
+
+
+table{
   /*removing the borders between the cells*/
-  border-collapse: collapse;
-  font-size: 14px;
+  border-collapse:collapse;
   /*table shadow*/
   box-shadow: 0 6px 5px 1px rgba(0, 0, 0, 0.15);
   margin-top: 40px ;
-}
-
-table{
   width: 70%;
   height: 60%;
-}
-
-/*styling of the row heads*/
-.job_table thead tr {
-  font-size: 20px;
-  background-color: #009879;
-  color: #ffffff;
-  text-align: center;
+  border-radius: 30px;
+  overflow: hidden;
 }
 
 /*cells size*/
-.job_table th,
-.job_table td {
-  padding: 25px 25px;
+th, td {
+padding: 25px 25px;
+}
+
+/*styling of the row heads*/
+thead tr {
+font-size: 22px;
+background-color: #009879;
+color: #ffffff;
+text-align: center;
 }
 
 /*body of the sub heads*/
-.job_table tbody tr {
-  text-align: center;
+tbody tr {
+text-align: center;
 /*make a border between every row*/
-  border-bottom: 1px solid #dddddd;
-  font-size: 15px;
+border-bottom: 1px solid #dddddd;
+font-size: 16px;
 }
 
+
 /*nth-of-type selector changes the even cell's color*/
-.job_table tbody tr:nth-of-type(even) {
-  background-color: #b9f1dc;
+tbody tr:nth-of-type(even) {
+background-color: #7fceb1;
 }
 
 /*nth-of-type selector changes the odd cell's color*/
-.job_table tbody tr:nth-of-type(odd) {
-  background-color: #f3f3f3;
+tbody tr:nth-of-type(odd) {
+background-color: #f3f3f3;
 }
 
 /*selector changes the props of the last element of its parent*/
-.job_table tbody tr:last-of-type {
-  border-bottom: 2px solid #009879;
+tbody tr:last-of-type {
+  border-bottom: none;
 }
 
 /*hovering over the row*/
-.job_table tbody tr:hover {
-  color: #039376;
-  font-weight: bold;
+tbody tr:hover {
+color: #039376;
+font-weight: bold;
 }
 
 button{
-  border-radius: 12px;
-  color: white;
-  padding: 12px 40px;
-  font-size: 14px;
-  border: none;
-  background: #009879;
-  white-space: nowrap;
+border-radius: 12px;
+color: white;
+padding: 12px 40px;
+font-size: 16px;
+border: none;
+background: #009879;
+white-space: nowrap;
 }
 
 button:hover{
-  cursor: pointer;
-  background:#81dfcc;
-  border-radius: 25px;
-  font-weight: bold;
+cursor: pointer;
+background:#4dbda7;
+border-radius: 25px;
+font-weight: bold;
 }

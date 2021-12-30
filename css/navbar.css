@@ -1,14 +1,10 @@
 header {
   /*the header will stay on screen as you scroll*/
   position: sticky;
-  /*space from top of screen*/
-  top: 0;
   /*define the header's priority above other layers*/
   z-index: 1;
-  /*header shadow*/
-  /*h-offset, v-offset, blur, spread, color*/
-  box-shadow: 0px 2px 2px 3px #009879;
-  height: 80px;
+  /*header shadow
+  h-offset, v-offset, blur, spread, color*/
   background-color: #282A35;
   /*prevent line break between icon and text*/
   white-space: nowrap;
@@ -16,29 +12,22 @@ header {
   display: flex;
   /*vertically align tabs*/
   align-items: center;
-  margin-bottom: 70px;
+  /*tabs on the right*/
+  justify-content: space-between;
+  box-shadow: 0px 2px 2px 3px #009879;
+  height: 80px;
+  margin-bottom: 30px;
+  padding: 10px 0;
 }
 
-header ul {
-  /*make the ul list less wide than the header*/
-  width: 85%;
-  /*making the ul flex so we can use the justify content*/
-  display: flex;
-  /*content of ul goes to the right end*/
-  justify-content: flex-end;
-  /* some margins to the right*/
-  margin-right: 160px;
-  /*make a gap between lists, (we need flex)*/
-  /*gap: row-gap column-gap;*/
-  gap: 0 20px;  
+/*remove the ul's bullets, the default is list-items for display*/
+header *{
+  display: inline;
 }
 
+/*space between tabs*/
 header li {
-  /*put ul items next to each other*/
-  display: inline-block;
-
-  /*removing the ul bullets*/
-  list-style: none;
+  margin: 5px;
 }
 
 /*align the icons of tabs to middle*/
@@ -47,18 +36,17 @@ header li {
 }
 
 /*links color*/
-header a {
+header li a{
   border-radius: 30px;
   color: #ffffff;
   /*the padding of links*/
-  padding: 12px 30px;
+  padding: 12px 25px;
   text-decoration: none;
   font-size: 20px;
-
 }
 
 /*change color when hovering over the link*/
-header a:not(.github):hover {
+header a:not(.logo):hover {
   background-color: #ddd;
   color: black;
 }
@@ -70,7 +58,11 @@ header a.active {
 }
 
 /*header logo position*/
-header img {
-  height: 60px;
-margin-left: 150px;}
+.logo{
+  margin-left:80px;
+}
+
+header img{
+  height:65px;
+}
 
