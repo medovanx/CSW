@@ -1,15 +1,16 @@
 body {
   /*specifiy page height and make it scrollable*/
   height: 125vh;
-  background-color: white;
+  background-color: #c9eee5;
   font-family: sans-serif;
   margin: 0px;
   padding: 0px;
-  
+
+
   /*
-  background-image: url('../img/pattern.png');
+  background-size: cover;
+  background-image: url('../img/pattern2.jpg');
   background-repeat: repeat;
-  background-size: contain;
   */
 }
 

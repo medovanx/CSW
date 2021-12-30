@@ -1,0 +1,71 @@
+/*main table styles*/
+.job_table {
+  /*removing the borders between the cells*/
+  border-collapse: collapse;
+  font-size: 14px;
+  /*minimum width for the table */
+  /*If the content is smaller than the minimum width, the minimum width will be applied*/
+  min-width: 400px;
+  /*table shadow*/
+  box-shadow: 0 6px 5px 1px rgba(0, 0, 0, 0.15);
+  margin-top: 40px;
+}
+
+/*styling of the row heads*/
+.job_table thead tr {
+  font-size: 20px;
+  background-color: #009879;
+  color: #ffffff;
+  text-align: center;
+}
+
+/*cells size*/
+.job_table th,
+.job_table td {
+  padding: 25px 30px;
+}
+
+/*body of the sub heads*/
+.job_table tbody tr {
+  text-align: center;
+/*make a border between every row*/
+  border-bottom: 1px solid #dddddd;
+  font-size: 15px;
+}
+
+/*nth-of-type selector changes the even cell's color*/
+.job_table tbody tr:nth-of-type(even) {
+  background-color: #b9f1dc;
+}
+
+/*nth-of-type selector changes the odd cell's color*/
+.job_table tbody tr:nth-of-type(odd) {
+  background-color: #f3f3f3;
+}
+
+/*selector changes the props of the last element of its parent*/
+.job_table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+/*hovering over the row*/
+.job_table tbody tr:hover {
+  color: #039376;
+  font-weight: bold;
+}
+
+button{
+  border-radius: 12px;
+  color: white;
+  padding: 12px 40px;
+  font-size: 14px;
+  border: none;
+  background: #009879;
+}
+
+button:hover{
+  cursor: pointer;
+  background:#81dfcc;
+  border-radius: 25px;
+  font-weight: bold;
+}

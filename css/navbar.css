@@ -7,7 +7,7 @@ header {
   z-index: 1;
   /*header shadow*/
   /*h-offset, v-offset, blur, spread, color*/
-  box-shadow: 0px 2px 2px 3px #04AA6D;
+  box-shadow: 0px 2px 2px 3px #009879;
   height: 80px;
   background-color: #282A35;
   /*make the white space with no wrap(line break)*/
@@ -15,6 +15,7 @@ header {
   display: flex;
   /*vertically align tabs*/
   align-items: center;
+  margin-bottom: 70px;
 }
 
 header ul {
@@ -24,9 +25,9 @@ header ul {
   display: flex;
   /*content of ul goes to the right end*/
   justify-content: flex-end;
-  /* auto margins so navbar(ul) appears in middle of header*/
-  margin: auto;
-  /*make a gap between lists, we need flex*/
+  /* some margins to the right*/
+  margin-right: 160px;
+  /*make a gap between lists, (we need flex)*/
   /*gap: row-gap column-gap;*/
   gap: 0 20px;
 }
@@ -63,11 +64,12 @@ header a:not(.github):hover {
 
 /*color of the active tab in the navbar*/
 header a.active {
-  background-color: #04AA6D;
+  background-color: #009879;
   color: white;
 }
 
 /*header logo position*/
 header img {
-  margin-left: 50;
+  margin-left: 160px;
+  height: 60px;
 }
