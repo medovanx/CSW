@@ -1,6 +1,7 @@
 header {
   /*the header will stay on screen as you scroll*/
   position: sticky;
+  top: 0;
   /*define the header's priority above other layers*/
   z-index: 1;
   /*header shadow
