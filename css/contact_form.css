@@ -27,7 +27,7 @@
     color: white;
   /*size*/
     padding: 12px 20px; 
-    border-radius: 20px;
+    border-radius: 15px;
   /*remove button border*/
     border: none;
   /*change cursor on hover*/    
@@ -44,12 +44,13 @@
 
   /* Add a background color and some padding around the form */
   .container {
-    border-radius: 5px;
+    /*former border radius*/
+    border-radius: 20px;
     background-color: #8ad5b9;
     padding: 20px 50px;
     /*fixed container width*/
-    width: 600px;
-    margin: 50px auto;
+    width: 35%;
+    margin:auto;
   }
   
   /*Contact Us text positioning*/

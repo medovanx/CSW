@@ -51,13 +51,12 @@ tbody tr:last-of-type {
 }
 
 /*hovering over the row*/
-tbody tr:hover {
-color: #039376;
-font-weight: bold;
+tbody tr:hover{
+color: #36a28c;
+text-shadow:1.5px 1.5px 2px #36a28c;
 }
-
 button{
-border-radius: 12px;
+border-radius: 25px;
 color: white;
 padding: 12px 40px;
 font-size: 16px;
@@ -70,6 +69,6 @@ white-space: nowrap;
 button:hover{
 cursor: pointer;
 background:#4dbda7;
-border-radius: 25px;
-font-weight: bold;
 }
+
+
