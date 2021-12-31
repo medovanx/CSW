@@ -1,4 +1,3 @@
-/*main table styles*/
 body {
   background: url(../img/jobs.jpg);
   background-size: cover;
@@ -11,11 +10,12 @@ h1 {
   font-weight: normal;
 }
 
+/*main table styles*/
 table {
   /*removing the borders between the cells*/
   border-collapse: collapse;
   /*table shadow*/
-  box-shadow: 0 6px 5px 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 6px 4px 4px rgba(0, 0, 0, 0.15);
   margin-top: 40px;
   width: 70%;
   height: 60%;
@@ -49,6 +49,7 @@ tbody tr {
 /*nth-of-type selector changes the even cell's color*/
 tbody tr:nth-of-type(even) {
   background-color: #7fceb1;
+  color: white;
 }
 
 /*nth-of-type selector changes the odd cell's color*/
@@ -64,7 +65,6 @@ tbody tr:last-of-type {
 /*hovering over the row*/
 tbody tr:hover {
   color: #36a28c;
-  text-shadow: 1.5px 1.5px 2px #36a28c;
 }
 
 button {
@@ -74,6 +74,7 @@ button {
   font-size: 16px;
   border: none;
   background: #009879;
+  /*for smaller screens*/
   white-space: nowrap;
 }
 
@@ -81,4 +82,5 @@ button {
 button:hover {
   cursor: pointer;
   background: #4dbda7;
+  transform: scale(1.1);
 }
