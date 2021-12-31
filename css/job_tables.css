@@ -1,12 +1,22 @@
 /*main table styles*/
+body {
+  background: url(../img/jobs.jpg);
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px #ffffff33;
+}
 
+h1 {
+  color: white;
+  text-shadow: 3px 3px 5px #000000;
+  font-weight: normal;
+}
 
-table{
+table {
   /*removing the borders between the cells*/
-  border-collapse:collapse;
+  border-collapse: collapse;
   /*table shadow*/
   box-shadow: 0 6px 5px 1px rgba(0, 0, 0, 0.15);
-  margin-top: 40px ;
+  margin-top: 40px;
   width: 70%;
   height: 60%;
   border-radius: 30px;
@@ -14,35 +24,36 @@ table{
 }
 
 /*cells size*/
-th, td {
-padding: 25px 20px;
+th,
+td {
+  padding: 25px 20px;
 }
 
 /*styling of the row heads*/
 thead tr {
-font-size: 22px;
-background-color: #009879;
-color: #ffffff;
-text-align: center;
+  font-size: 22px;
+  background-color: #009879;
+  color: #ffffff;
+  text-align: center;
 }
 
 /*body of the sub heads*/
 tbody tr {
-text-align: center;
-/*make a border between every row*/
-border-bottom: 1px solid #dddddd;
-font-size: 16px;
+  text-align: center;
+  /*make a border between every row*/
+  border-bottom: 1px solid #dddddd;
+  font-size: 16px;
 }
 
 
 /*nth-of-type selector changes the even cell's color*/
 tbody tr:nth-of-type(even) {
-background-color: #7fceb1;
+  background-color: #7fceb1;
 }
 
 /*nth-of-type selector changes the odd cell's color*/
 tbody tr:nth-of-type(odd) {
-background-color: #f3f3f3;
+  background-color: #f3f3f3;
 }
 
 /*selector changes the props of the last element of its parent*/
@@ -51,24 +62,23 @@ tbody tr:last-of-type {
 }
 
 /*hovering over the row*/
-tbody tr:hover{
-color: #36a28c;
-text-shadow:1.5px 1.5px 2px #36a28c;
+tbody tr:hover {
+  color: #36a28c;
+  text-shadow: 1.5px 1.5px 2px #36a28c;
 }
-button{
-border-radius: 25px;
-color: white;
-padding: 12px 40px;
-font-size: 16px;
-border: none;
-background: #009879;
-white-space: nowrap;
+
+button {
+  border-radius: 25px;
+  color: white;
+  padding: 12px 40px;
+  font-size: 16px;
+  border: none;
+  background: #009879;
+  white-space: nowrap;
 }
 
 /*hovering over details button*/
-button:hover{
-cursor: pointer;
-background:#4dbda7;
+button:hover {
+  cursor: pointer;
+  background: #4dbda7;
 }
-
-
