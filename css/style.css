@@ -13,6 +13,10 @@ main {
   height: calc(100vh - 80px);
 }
 
+.description img{
+  height: 100px;
+}
+
 .description{
   display:flex;
   /*Main Axix لفوق ولتحت*/
