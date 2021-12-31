@@ -6,11 +6,11 @@
     border: 1px solid #04AA6D;
     /* Rounded borders */
     border-radius: 15px;
-    /*text padding from border*/
-    padding: 14px;
-    /*space between input label and area text*/
-    margin-top: 6px;
-    margin-bottom: 18px;
+    /*input text padding*/
+    padding: 15px;
+    /*space between label and area text*/
+    margin: 6px 0 15px 0;
+    /*outline when input is focused*/
     outline: none;
   }
 
@@ -44,18 +44,18 @@
 
   /* Add a background color and some padding around the form */
   .container {
-    /*former border radius*/
+    /*form border radius*/
     border-radius: 20px;
     background-color: #8ad5b9;
     padding: 20px 50px;
     /*fixed container width*/
-    width: 35%;
-    margin:auto;
+    width: 30%;
+    /*centering*/
+    margin:30px auto;
   }
   
-  /*Contact Us text positioning*/
+  /*Contact US text positioning*/
   .form-header {
-    width: 100%;
     text-align: center;
     font-size: 30px;
     font-weight: bold;

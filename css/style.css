@@ -1,14 +1,36 @@
 body {
-  /*specifiy page height and make it scrollable*/
-  height: 125vh;
   background-color: #c3e6dd;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
+}
 
-  /*
-  background-size: cover;
-  background-image: url('../img/pattern2.jpg');
-  background-repeat: repeat;
-  */
+main {
+  display: flex;
+  /*main axis <<>>*/
+  /*the direction is row*/
+  justify-content: center;
+  height: calc(100vh - 80px);
+}
+
+.description{
+  display:flex;
+  /*Main Axix لفوق ولتحت*/
+  justify-content:center;
+
+  /*Axis for column is <<>>*/
+  align-items:center;
+  /*≡*/
+  flex-direction: column;
+}
+
+
+.description h1 {
+	color: #009879;
+}
+
+.description p {
+	color: #000000;
+	font-size: 1.3rem;
+  line-height: 1.5;
 }
 

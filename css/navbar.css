@@ -17,8 +17,7 @@ header {
   justify-content: space-between;
   box-shadow: 0px 2px 2px 3px #009879;
   height: 80px;
-  margin-bottom: 30px;
-  padding: 0 20px 0 0;
+  padding-right: 20px;
 }
 
 /*remove the ul's bullets, the default is list-items for display*/
@@ -44,6 +43,7 @@ header li a{
   padding: 12px 25px;
   text-decoration: none;
   font-size: 20px;
+  text-transform: uppercase;
 }
 
 /*change color when hovering over the link*/
