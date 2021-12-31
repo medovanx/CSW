@@ -13,86 +13,123 @@ main {
   height: calc(100vh - 80px);
 }
 
-.description img{
+.description img {
   height: 100px;
 }
 
-.description{
-  display:flex;
+.description {
+  display: flex;
   /*Main Axix لفوق ولتحت*/
-  justify-content:center;
+  justify-content: center;
 
   /*Axis for column is <<>>*/
-  align-items:center;
+  align-items: center;
   /*≡*/
   flex-direction: column;
 }
 
 .description h1 {
-	color: #009879;
+  color: #009879;
 }
 
 .description p {
-	color: #000000;
-	font-size: 1.3rem;
+  color: #000000;
+  font-size: 1.3rem;
   line-height: 1.5;
 }
 
 /*the section*/
-.about{
-  height:200vh;
+.about {
+  height: 100vh;
   display: flex;
   background-color: #c3e6dd;
 }
 
-/*The left "about" div*/
-.about-title{
-width:50%;
-height:100vh;
-display: flex;
-justify-content: center;
-align-items: center;
-font-size: 30px;
+.contact {
+  height: 100vh;
+  display: flex;
+  background-color: #aed1c8;
 }
 
-.about-pages{
-  width:50%
+/*The left sections*/
+.about-title,
+.contact-title {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
 }
-/*each writing sections on right*/
-.about-pages div{
+
+/*the right sections*/
+.about-pages,
+.contact-pages {
+  width: 50%
+}
+
+/*text in right sections*/
+.about-pages div,
+.contact-pages div {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 }
 
-/*the p of right pages*/
-.about-pages div p{
-  /*make the p a lil smaller*/
-  width:80%;
-  font-size:20px;
-  line-height: 30px;
-  color:white;
-}
-.about-pages div h2{
+/*right pages heads*/
+.about-pages div h2,
+.contact-pages div h2 {
   color: black;
   font-size: 30px;
 }
 
-.about-pages div:nth-child(1){
-background-color:#51b39b;
+/*the p of right pages*/
+.about-pages div p,
+.contact-pages div p {
+  /*make the p a lil smaller, look first one*/
+  width: 80%;
+  font-size: 20px;
+  line-height: 30px;
+  color: white;
+
 }
 
-.about-pages div:nth-child(2){
-  background-color:#6bc4ae;
-  }
-  
-  footer{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-   background-color: #b8ffed;
-  }
+/*first right section color*/
+.about-pages div:nth-child(1) {
+  background-color: #6dc9b2;
+}
+
+/*second right section color*/
+.contact-pages div:nth-child(1) {
+  background-color: #67bba6;
+}
+
+footer {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #b8ffed;
+}
+
+/*prof's text*/
+.bot {
+  font-size: 12px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+}
+
+/*second right section p*/
+.contact-pages div p:hover {
+  color: red;
+}
+
+.contact-pages a {
+  text-decoration: none;
+}
