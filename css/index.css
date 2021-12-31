@@ -14,7 +14,7 @@ main {
   /*logo in first section*/
   .description img {
     height: 100px;
-    filter: invert(100%) drop-shadow(2px 2px 5px black);
+    filter: invert(100%) drop-shadow(2px 2px 2px black);
   }
   
   .description {
@@ -30,8 +30,8 @@ main {
   
   .description .main_title {
     color: #83dfb3;
-    text-shadow: 2px 2px 4px #000000;
-  }
+    text-shadow: 2px 2px 3px #000000;
+    }
   
   .description .sub_title {
     text-shadow: 4px 3px 4px #000000;; 
