@@ -48,7 +48,7 @@ main {
 .contact {
   height: 100vh;
   display: flex;
-  background-color: #aed1c8;
+  background-color: #b1dbd0;
 }
 
 /*The left sections*/
@@ -98,12 +98,12 @@ main {
 
 /*first right section color*/
 .about-pages div:nth-child(1) {
-  background-color: #6dc9b2;
+  background-color: #91d3c2;
 }
 
 /*second right section color*/
 .contact-pages div:nth-child(1) {
-  background-color: #67bba6;
+  background-color: #67cbb1;
 }
 
 footer {
@@ -113,7 +113,7 @@ footer {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: #b8ffed;
+  background-color: #a3e9d7;
 }
 
 /*prof's text*/
@@ -127,7 +127,8 @@ footer {
 
 /*second right section p*/
 .contact-pages div p:hover {
-  color: red;
+  color: #ffffff;
+  font-weight: bold;
 }
 
 .contact-pages a {
