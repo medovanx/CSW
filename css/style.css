@@ -5,6 +5,7 @@ body {
 }
 
 main {
+  background-color: white;
   display: flex;
   /*main axis <<>>*/
   /*the direction is row*/
@@ -23,7 +24,6 @@ main {
   flex-direction: column;
 }
 
-
 .description h1 {
 	color: #009879;
 }
@@ -34,3 +34,61 @@ main {
   line-height: 1.5;
 }
 
+/*the section*/
+.about{
+  height:200vh;
+  display: flex;
+  background-color: #c3e6dd;
+}
+
+/*The left "about" div*/
+.about-title{
+width:50%;
+height:100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+}
+
+.about-pages{
+  width:50%
+}
+/*each writing sections on right*/
+.about-pages div{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*the p of right pages*/
+.about-pages div p{
+  /*make the p a lil smaller*/
+  width:80%;
+  font-size:20px;
+  line-height: 30px;
+  color:white;
+}
+.about-pages div h2{
+  color: black;
+  font-size: 30px;
+}
+
+.about-pages div:nth-child(1){
+background-color:#51b39b;
+}
+
+.about-pages div:nth-child(2){
+  background-color:#6bc4ae;
+  }
+  
+  footer{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   background-color: #b8ffed;
+  }
