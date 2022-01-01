@@ -1,18 +1,54 @@
+.background-image {
+  background-image: url(../img/sent.jpg);
+  box-shadow: inset 0 0 0 1000px #bababa7d;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  filter: blur(5px);
+}
+
 /*button color*/
-.back {
+button {
   background: #000000;
-  color:white;
+  color: white;
   border-radius: 20px;
-  padding: 10px 20px;
-  /*back icon in middle of button*/
-  vertical-align: middle;
+  padding: 9px 15px;
+  border: none;
+  font-size: 16px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
 }
 
 /*Button color when hovered*/
-.back:hover {
+button:hover {
   background: #04AA6D;
-  color: white;
+  transform: scale(1.1);
+  cursor: pointer;
 }
-a {
-  text-decoration: none;
+
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: calc(100vh - 60px);
+}
+
+.container{
+  max-width: 450px;
+  margin: auto;
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  background-color: #ffffff89;
+  border-radius: 30px;
 }
