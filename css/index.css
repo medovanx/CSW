@@ -4,6 +4,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  width: 100vw;
+  background-position: center;
   position: fixed;
   left: 0;
   right: 0;
@@ -172,7 +174,7 @@ footer {
   justify-content: space-around;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 271px;
+  margin-bottom: 550px;
   
 }
 
@@ -181,8 +183,8 @@ footer {
     width: 290px;
     box-shadow: 0 5px 25px rgb(1 1 1 / 15%);
     border-radius: 55px;
-    margin: 10px;
-    padding:20px 0;
+    margin: 15px;
+    padding:14px 0;
     height: 180px;
 }
 
