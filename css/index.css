@@ -22,8 +22,6 @@
   height: calc(100vh - 60px);
 }
 
-
-
 .description {
   display: flex;
   /*Main Axix لفوق ولتحت*/
@@ -59,18 +57,11 @@
 .about {
   height: 100vh;
   display: flex;
-  background-color: #c3e6dd;
-}
-
-.contact {
-  height: 100vh;
-  display: flex;
-  background-color: #b1dbd0;
+  background-color: #c3e6dda6;
 }
 
 /*The left sections*/
-.about-title,
-.contact-title {
+.about-title{
   width: 50%;
   height: 100vh;
   display: flex;
@@ -80,15 +71,13 @@
 }
 
 /*the right sections*/
-.about-pages,
-.contact-pages {
+.about-pages{
   width: 50%;
 
 }
 
 /*text in right sections*/
-.about-pages div,
-.contact-pages div {
+.about-pages div{
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -97,15 +86,13 @@
 }
 
 /*right pages heads*/
-.about-pages div h2,
-.contact-pages div h2 {
+.about-pages div h2{
   color: black;
   font-size: 30px;
 }
 
 /*the p of right pages*/
-.about-pages div p,
-.contact-pages div p {
+.about-pages div p{
   /*make the p a lil smaller, look first one*/
   width: 80%;
   font-size: 20px;
@@ -115,13 +102,8 @@
 }
 
 /*first right section color*/
-.about-pages div:nth-child(1) {
-  background-color: #91d3c2;
-}
-
-/*second right section color*/
-.contact-pages div:nth-child(1) {
-  background-color: #67cbb1;
+.about-pages div{
+  background-color: rgb(146 211 195/65%);
 }
 
 footer {
@@ -131,9 +113,14 @@ footer {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: #a3e9d7;
+  background-color: rgba(142, 226, 205, 0.65);
 }
 
+footer h1, footer h2, footer h3{
+  color:white;
+  text-shadow: 2px 2px 4px #000000;
+
+}
 /*prof's text*/
 .bot {
   font-size: 12px;
@@ -143,23 +130,12 @@ footer {
   right: 20px;
 }
 
-/*second right section p*/
-.contact-pages div p:hover {
-  color: #ffffff;
-  font-weight: bold;
-}
-
-.contact-pages a {
-  text-decoration: none;
-}
-
-
 .cards_contact{
   display: flex;
   height: 100vh;
   align-items: center;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
 }
 .cards_contact .title{
   color: #83dfb3;
@@ -171,11 +147,8 @@ footer {
 
 .cards_contact .content{
   display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 550px;
-  
+  flex-direction: row;
+  align-items: center;  
 }
 
 .card{
@@ -210,3 +183,5 @@ a:hover{
 .cards_contact_all{
   height: 100%;
 }
+
+ 
