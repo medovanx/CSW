@@ -206,3 +206,7 @@ a{
 a:hover{
   color: teal;
 }
+
+.cards_contact_all{
+  height: 100%;
+}
