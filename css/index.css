@@ -153,13 +153,13 @@ footer {
 
 
 .cards_contact{
-  padding: 100px 200px;
-  height: 136vh;
-  box-sizing: border-box;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .cards_contact .title{
-  display: flex;
-  justify-content: center;
   color: #83dfb3;
   font-size: 35.2px;
   font-weight: 800;
@@ -169,28 +169,32 @@ footer {
 
 .cards_contact .content{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 271px;
+  
 }
 
 .card{
-   background-color: #fff;
-    width: 340px;
+   background-color: #ffffffa3;
+    width: 290px;
     box-shadow: 0 5px 25px rgb(1 1 1 / 15%);
-    border-radius: 20px;
-    padding: 25px;
-    margin: 15px;
+    border-radius: 55px;
+    margin: 10px;
+    padding:20px 0;
+    height: 180px;
 }
 
 .icon{
   color: #27987bd9;
-  font-size: 128px;
+  font-size: 100px;
   text-align: center;
 }
 
 .info{
   text-align: center;
+  line-height: 20px;
 }
 
 a{
