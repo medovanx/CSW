@@ -150,3 +150,53 @@ footer {
 .contact-pages a {
   text-decoration: none;
 }
+
+
+.cards_contact{
+  padding: 100px 200px;
+  height: 136vh;
+  box-sizing: border-box;
+}
+.cards_contact .title{
+  display: flex;
+  justify-content: center;
+  color: #83dfb3;
+  font-size: 35.2px;
+  font-weight: 800;
+  text-shadow: 3px 2px 4px #000000;
+
+}
+
+.cards_contact .content{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card{
+   background-color: #fff;
+    width: 340px;
+    box-shadow: 0 5px 25px rgb(1 1 1 / 15%);
+    border-radius: 20px;
+    padding: 25px;
+    margin: 15px;
+}
+
+.icon{
+  color: #27987bd9;
+  font-size: 128px;
+  text-align: center;
+}
+
+.info{
+  text-align: center;
+}
+
+a{
+  color:black;
+}
+
+a:hover{
+  color: teal;
+}
