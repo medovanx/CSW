@@ -39,7 +39,7 @@ td {
 /*styling of the row heads*/
 thead tr {
   font-size: 22px;
-  background-color: #009879;
+  background-color: rgb(0 152 121 / 50%);
   color: #ffffff;
   text-align: center;
 }
@@ -55,13 +55,13 @@ tbody tr {
 
 /*nth-of-type selector changes the even cell's color*/
 tbody tr:nth-of-type(even) {
-  background-color: #7fceb1;
+  background-color: rgb(127 206 177/50%);
   color: white;
 }
 
 /*nth-of-type selector changes the odd cell's color*/
 tbody tr:nth-of-type(odd) {
-  background-color: #f3f3f3;
+  background-color: rgb(243 243 243/50%);
 }
 
 /*selector changes the props of the last element of its parent*/
@@ -71,7 +71,7 @@ tbody tr:last-of-type {
 
 /*hovering over the row*/
 tbody tr:hover {
-  color: #36a28c;
+  color: #2d7163;
 }
 
 button {
