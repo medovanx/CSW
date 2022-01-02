@@ -57,7 +57,7 @@
 .about {
   height: 100vh;
   display: flex;
-  background-color: #c3e6dda6;
+  background-color: rgba(194, 229, 221, 0.40);
 }
 
 /*The left sections*/
@@ -68,6 +68,8 @@
   justify-content: center;
   align-items: center;
   font-size: 30px;
+  color: #83dfb3;
+  text-shadow: 3px 2px 4px #000000;
 }
 
 /*the right sections*/
@@ -89,6 +91,9 @@
 .about-pages div h2{
   color: black;
   font-size: 30px;
+  color: #83dfb3;
+  text-shadow: 3px 2px 4px #000000;
+
 }
 
 /*the p of right pages*/
@@ -98,12 +103,13 @@
   font-size: 20px;
   line-height: 30px;
   color: white;
+  text-shadow: 3px 2px 4px #000000;
 
 }
 
 /*first right section color*/
 .about-pages div{
-  background-color: rgb(146 211 195/65%);
+  background-color: rgb(146 211 195/40%);
 }
 
 footer {
@@ -113,12 +119,13 @@ footer {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: rgba(142, 226, 205, 0.65);
+  background-color: #8ee2cd66;
 }
 
 footer h1, footer h2, footer h3{
   color:white;
   text-shadow: 2px 2px 4px #000000;
+  font-family: 'Roboto';
 
 }
 /*prof's text*/
