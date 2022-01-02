@@ -46,45 +46,47 @@
 				</a>
 			</li>
 		</ul>
-		</header>
+	</header>
 	<div class="background-image"></div>
 
-	 
-<div class="main_container">
-	<div class="container">
-		<div class="form-header">
-			<p>Contact Us</p>
+
+<div class="main">
+
+	<div class="sub_container">
+		<div class="container">
+			<h2>Contact Us</h2>
+
+			<form action="sent.html">
+
+				<label for="fname">First Name</label>
+				<input type="text" id="fname" name="firstname" placeholder="Enter your first name.." required>
+
+				<label for="lname">Last Name</label>
+				<input type="text" id="lname" name="lastname" placeholder="Enter your last name.." required>
+
+				<label for="email">Your E-Mail</label>
+				<input type="email" id="email" name="email" placeholder="Enter a valid E-Mail.." required>
+
+				<label for="country">Country</label>
+				<select id="country" name="country">
+					<option value="EG">Egypt</option>
+					<option value="PS">Palestine</option>
+					<option value="KSA">Saudi Arabia</option>
+					<option value="FR">France</option>
+					<option value="USA">USA</option>
+				</select>
+
+				<label for="subject">Message</label>
+				<textarea id="subject" name="subject" placeholder="Write what's your inquiry about!"
+					required></textarea>
+
+				<input type="submit" value="Send Message">
+
+			</form>
 		</div>
-
-		<form action="sent.html">
-
-			<label for="fname">First Name</label>
-			<input type="text" id="fname" name="firstname" placeholder="Enter your first name.." required>
-
-			<label for="lname">Last Name</label>
-			<input type="text" id="lname" name="lastname" placeholder="Enter your last name.." required>
-
-			<label for="email">Your E-Mail</label>
-			<input type="email" id="email" name="email" placeholder="Enter a valid E-Mail.." required>
-
-			<label for="country">Country</label>
-			<select id="country" name="country">
-				<option value="EG">Egypt</option>
-				<option value="PS">Palestine</option>
-				<option value="KSA">Saudi Arabia</option>			
-				<option value="FR">France</option>
-				<option value="USA">USA</option>
-			</select>
-
-			<label for="subject">Message</label>
-			<textarea id="subject" name="subject" placeholder="Write what's your inquiry about!" required></textarea>
-
-			<input type="submit" value="Send Message">
-
-		</form>
 	</div>
-</div>
 
+</div>
 </body>
 
 </html>
