@@ -60,18 +60,12 @@
   opacity: 100;
 }
 
-/*enlarge search input size when input is focused on*/
-.search input:focus{
-outline: none;
-outline: 1px solid #04AA6D;
-transform: scale(1.3);
-}
 
 /*making search bar invisible so we can trigger hover effect*/
 .search{
   display: block;
   opacity: 0;
-  transition: all 1s;
+  transition: all 0.5s;
 }
 
 /*search input size*/
@@ -80,6 +74,15 @@ transform: scale(1.3);
   border-radius: 20px;
   border:none;
 }
+
+/*enlarge search input size when input is focused on*/
+.search input:focus{
+outline: none;
+outline: 1px solid #04AA6D;
+transform: scale(1.3);
+}
+
+
 
 .description .sub_title {
   text-shadow: 3px 2px 4px #000000;
