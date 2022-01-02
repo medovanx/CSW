@@ -37,12 +37,14 @@
   font-size:30px;
   color: #83dfb3;
   text-shadow: 3px 2px 4px #000000;
+  font-family: 'Roboto', sans-serif;
 }
 
 /*logo in first section*/
 .description img {
   height: 100px;
   filter: invert(100%) drop-shadow(3px 2px 4px #000000);
+  
 }
 
 .description .sub_title {
