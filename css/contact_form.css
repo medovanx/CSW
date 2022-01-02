@@ -46,6 +46,7 @@ textarea {
   border: 1px solid #04AA6D;
   /*outline when input is focused*/
   outline: none;
+  box-sizing: content-box;
 }
 
 input[type=text]:focus,
