@@ -9,3 +9,21 @@ body {
 a{
   text-decoration: none;
 }
+
+/*the whole scrollbar width*/
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/*Scrollbar color, radius, border*/
+::-webkit-scrollbar-thumb {
+  background-color: #99e2b4;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+}
+
+/*Scrollbar track color*/
+::-webkit-scrollbar-track {
+  background: #67b99a;
+}
+
