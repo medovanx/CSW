@@ -9,16 +9,19 @@
 	<!--icons-->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-	
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-PG2X43N9W3"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
 
-		  gtag('config', 'G-PG2X43N9W3');
-		</script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-PG2X43N9W3"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'G-PG2X43N9W3');
+	</script>
 
 
 </head>
@@ -65,7 +68,12 @@
 		<div class="background-image"></div>
 		<div class="description">
 			<h1 class="main_title">Welcome to JOBS-CO!</h1>
-			<img src="img/search.png">
+			<div class="search_icon_container">
+				<img src="img/search.png"></label>
+				<div class="search">
+					<form action="jobs.html"><input type="text" id="search_jobs" placeholder="Search for a job"></form>
+				</div>
+			</div>
 			<p class="sub_title">The best website to find nearby reliable jobs with with ease, all in one place!</p>
 		</div>
 	</section>
@@ -77,7 +85,10 @@
 		<div class="about-pages">
 			<div>
 				<h2>Our purpose?</h2>
-				<p>JOBS-CO is an online company dedicated to assisting freelancers and career-seekers in easily finding reliable nearby jobs. Our moderator team monitors the database 24 hours a day, seven days a week to ensure there are no fraudulent offers, scams, or behaviors! Each hour, the database is automatically updated, gathering information and job offers from various reliable sources.</p>
+				<p>JOBS-CO is an online company dedicated to assisting freelancers and career-seekers in easily finding
+					reliable nearby jobs. Our moderator team monitors the database 24 hours a day, seven days a week to
+					ensure there are no fraudulent offers, scams, or behaviors! Each hour, the database is automatically
+					updated, gathering information and job offers from various reliable sources.</p>
 			</div>
 		</div>
 	</section>
