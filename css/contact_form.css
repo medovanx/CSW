@@ -12,87 +12,94 @@
   z-index: -1;
   filter: blur(5px);
 }
-  /* Select all form inputs with type text and email and also include (textarea) for subject*/
-  form input,
-  select,
-  textarea {
-    /*fixed width*/
-    width: 100%;
-    /* Rounded borders for inputs*/
-    border-radius: 15px;
-    /*input text padding*/
-    padding: 15px;
-    /*space between label and area text*/
-    margin: 6px 0 15px 0;
-    /*input area border*/
-    border: 1px solid #04AA6D;
-    /*outline when input is focused*/
-    outline: none;
-  }
 
-  input[type=text]:focus,
-  input[type=email]:focus {
-    border: 2px solid #3e8e70;
-  }
+/* Select all form inputs with type text and email and also include (textarea) for subject*/
+form input,
+select,
+textarea {
+  /*fixed width*/
+  width: 100%;
+  /* Rounded borders for inputs*/
+  border-radius: 15px;
+  /*input text padding*/
+  padding: 15px;
+  /*space between label and area text*/
+  margin: 6px 0 15px 0;
+  /*input area border*/
+  border: 1px solid #04AA6D;
+  /*outline when input is focused*/
+  outline: none;
+}
 
-  textarea:focus {
-    border: 2px solid #3e8e70;
-  }
+input[type=text]:focus,
+input[type=email]:focus {
+  border: 2px solid #3e8e70;
+}
 
-  textarea {
-    /* Allow the user to resize the textarea, value here is disabled */
-    resize: none;
-    font-family: sans-serif;
-  }
+textarea:focus {
+  border: 2px solid #3e8e70;
+}
 
-  /* Style the submit button with a specific background color etc */
-  form input[type=submit] {
-    background-color: #000000;
-    /*text color on button*/
-    color: white;
-    /*size*/
-    padding: 12px 20px;
-    border-radius: 15px;
-    /*remove button border*/
-    border: none;
-    /*change cursor on hover*/
-    cursor: pointer;
-    font-size: 20px;
-    /*fixed button size*/
-    width: 100%;
-  }
+textarea {
+  /* Allow the user to resize the textarea, value here is disabled */
+  resize: none;
+  font-family: sans-serif;
+}
 
-  /* When moving the mouse over the submit button, change color */
-  form input[type=submit]:hover {
-    background-color: #17bb7a;
-  }
+/* Style the submit button with a specific background color etc */
+form input[type=submit] {
+  background-color: #000000;
+  /*text color on button*/
+  color: white;
+  /*size*/
+  padding: 12px 20px;
+  border-radius: 15px;
+  /*remove button border*/
+  border: none;
+  /*change cursor on hover*/
+  cursor: pointer;
+  font-size: 20px;
+  /*fixed button size*/
+  width: 100%;
+}
 
-  /* Add a background color and some padding around the form */
-  .container {
-    /*form border radius*/
-    border-radius: 20px;
-    background-color: #6ec1a2b8;
-    padding: 3px 50px;
-    /*fixed container width*/
-    width: 30%;
-    /*centering*/
-    margin: 30px auto;
-  }
+/* When moving the mouse over the submit button, change color */
+form input[type=submit]:hover {
+  background-color: #17bb7a;
+}
 
-  /*Contact US text positioning*/
-  .form-header {
-    text-align: center;
-    font-size: 30px;
-    font-weight: normal;
-    text-shadow: 2px 2px 12px #000000;
-    color: white;
-  }
+/* Add a background color and some padding around the form */
+.container {
+  /*form border radius*/
+  border-radius: 20px;
+  background-color: #6ec1a2b8;
+  padding: 3px 50px;
+  /*fixed container width*/
+  width: 35vw;
+}
 
-  label{
-    color:white;
-    text-shadow: 1px 1px 3px #000000;
-    }
+/*Contact US text positioning*/
+.form-header {
+  text-align: center;
+  font-size: 30px;
+  font-weight: normal;
+  text-shadow: 2px 2px 12px #000000;
+  color: white;
+}
 
-    textarea{
-      height:150px;
-    }
+label {
+  color: white;
+  text-shadow: 1px 1px 3px #000000;
+}
+
+textarea {
+  height: 150px;
+}
+
+.main_container{
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 60px);
+  justify-content: center;
+  align-items: center;
+}
