@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 /*remove the ul's bullets, the default is list-items for display*/
 header *{
   display: inline;
@@ -64,7 +68,7 @@ header li a:not(.logo):hover {
 }
 
 /*color of the active tab in the navbar*/
-header a.active {
+header a.active{
   background-color: #009879;
   color: white;
 }
@@ -73,6 +77,4 @@ header a.active {
 .material-icons {
   vertical-align: middle;
 }
-
-
 
