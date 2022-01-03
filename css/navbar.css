@@ -1,3 +1,8 @@
+/*remove the ul's bullets, the default is list-items for display*/
+header *{
+  display: inline;
+}
+
 header {
   /*the header will stay on screen as you scroll*/
   position: sticky;
@@ -19,23 +24,22 @@ header {
   height: 60px;
 }
 
-ul{
-  margin-right:30px;
+/*header logo position*/
+.logo{
+  margin-left:80px;
 }
 
-/*remove the ul's bullets, the default is list-items for display*/
-header *{
-  display: inline;
+header img{
+  height:60px;
+}
+
+ul{
+  margin-right:30px;
 }
 
 /*space between tabs*/
 header li {
   margin: 5px;
-}
-
-/*align the icons of tabs to middle*/
-.material-icons {
-  vertical-align: middle;
 }
 
 /*links color*/
@@ -49,8 +53,12 @@ header li a{
   font-size: 15px;
 }
 
+header li a{
+  transition: 0.4s;
+}
+
 /*change color when hovering over the link*/
-header a:not(.logo):hover {
+header li a:not(.logo):hover {
   background-color: #ddd;
   color: black;
 }
@@ -61,11 +69,10 @@ header a.active {
   color: white;
 }
 
-/*header logo position*/
-.logo{
-  margin-left:80px;
+/*align the icons of tabs to middle*/
+.material-icons {
+  vertical-align: middle;
 }
 
-header img{
-  height:60px;
-}
+
+

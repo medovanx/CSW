@@ -34,7 +34,7 @@
 }
 
 .description .main_title {
-  font-size:30px;
+  font-size: 30px;
   color: #83dfb3;
   text-shadow: 3px 2px 4px #000000;
   font-family: 'Roboto', sans-serif;
@@ -42,10 +42,10 @@
 }
 
 /*logo container*/
-.search_icon_container{
+.search_icon_container {
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
 }
 
 /*logo img*/
@@ -64,7 +64,7 @@
 }
 
 /*hovering over logo container = .search container appears (the height and width change)*/
-.search_icon_container:hover .search{
+.search_icon_container:hover .search {
   margin-top: 20px;
   opacity: 100;
   width: 200px;
@@ -72,11 +72,12 @@
 }
 
 /*search container (has the input)*/
-.search{
+.search {
   margin-top: 0;
   opacity: 0;
   width: 0px;
   height: 0px;
+
   transition: all 0.5s;
   display: flex;
   justify-content: center;
@@ -84,23 +85,23 @@
 }
 
 /*search input size*/
-.search input{
+.search input {
   text-align: center;
   border-radius: 20px;
-  border:none;
+  border: none;
   padding: 10px;
   cursor: text;
 }
 
-.search input::placeholder{
+.search input::placeholder {
   text-align: center;
 }
 
 /*enlarge search input size when input is focused on*/
-.search input:focus{
-outline: none;
-outline: 1px solid #04AA6D;
-transform: scale(1.2);
+.search input:focus {
+  outline: none;
+  outline: 1px solid #04AA6D;
+  transform: scale(1.2);
 }
 
 
@@ -120,7 +121,7 @@ transform: scale(1.2);
 }
 
 /*The left sections*/
-.about-title{
+.about-title {
   width: 50%;
   height: 100vh;
   display: flex;
@@ -132,13 +133,13 @@ transform: scale(1.2);
 }
 
 /*the right sections*/
-.about-pages{
+.about-pages {
   width: 50%;
 
 }
 
 /*text in right sections*/
-.about-pages div{
+.about-pages div {
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -147,7 +148,7 @@ transform: scale(1.2);
 }
 
 /*right pages heads*/
-.about-pages div h2{
+.about-pages div h2 {
   color: black;
   font-size: 30px;
   color: #83dfb3;
@@ -156,7 +157,7 @@ transform: scale(1.2);
 }
 
 /*the p of right pages*/
-.about-pages div p{
+.about-pages div p {
   /*make the p a lil smaller, look first one*/
   width: 80%;
   font-size: 20px;
@@ -167,7 +168,7 @@ transform: scale(1.2);
 }
 
 /*first right section color*/
-.about-pages div{
+.about-pages div {
   background-color: rgb(146 211 195/40%);
 }
 
@@ -181,17 +182,17 @@ footer {
   background-color: #8ee2cd66;
 }
 
-footer h1{
+footer h1 {
   text-align: center;
-  color:white;
+  color: white;
   text-shadow: 2px 2px 4px #000000;
 }
 
-footer p{
+footer p {
   text-align: center;
-  color:white;
+  color: white;
   text-shadow: 2px 2px 4px #000000;
-  font-family:'Poppins';
+  font-family: 'Poppins';
   font-size: 20px;
 }
 
@@ -202,21 +203,24 @@ footer p{
   bottom: 0;
   left: 20px;
 }
-.bot h1{
+
+.bot h1 {
   font-size: 20px;
 }
-.bot p{
+
+.bot p {
   font-size: 15px;
 }
 
-.cards_contact{
+.cards_contact {
   display: flex;
   height: 100vh;
   align-items: center;
   flex-direction: column;
   justify-content: center;
 }
-.cards_contact .title{
+
+.cards_contact .title {
   color: #83dfb3;
   font-size: 35.2px;
   font-weight: 800;
@@ -224,41 +228,38 @@ footer p{
 
 }
 
-.cards_contact .content{
+.cards_contact .content {
   display: flex;
   flex-direction: row;
-  align-items: center;  
 }
 
-.card{
-   background-color: #ffffffa3;
-    width: 290px;
-    box-shadow: 0 5px 25px rgb(1 1 1 / 15%);
-    border-radius: 55px;
-    margin: 15px;
+.card {
+  background-color: #ffffffa3;
+  width: 290px;
+  box-shadow: 0 5px 25px rgb(1 1 1 / 15%);
+  border-radius: 55px;
+  margin: 15px;
 }
 
-.icon{
+.icon {
   color: #27987bd9;
   font-size: 100px;
   text-align: center;
 }
 
-.info{
+.info {
   text-align: center;
   line-height: 20px;
 }
 
-a{
-  color:black;
+a {
+  color: black;
 }
 
-a:hover{
+a:hover {
   color: teal;
 }
 
-.cards_contact_all{
+.cards_contact_all {
   height: 100%;
 }
-
- 
