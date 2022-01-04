@@ -23,7 +23,7 @@
   /*the direction is row*/
   justify-content: center;
   /*minus the navbar height from the body*/
-  height: calc(100vh - 60px);
+  min-height: calc(100vh - 60px);
 }
 
 .description {
