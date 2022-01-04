@@ -83,13 +83,14 @@ form input[type=submit] {
   font-size: 20px;
   /*fixed button size*/
   width: 100%;
-  /*background-image: linear-gradient(to bottom, #70e0aa, #309460);*/
+  background-image: linear-gradient(to bottom, #70e0aa, #4b9970);
+  text-shadow: 1px 1px 2px black;
 }
 
 /* When moving the mouse over the submit button, change color */
 form input[type=submit]:hover {
   background-color: #17bb7a;
-/*background-image: linear-gradient(to bottom, #67eba5, #51b37f);*/
+background-image: linear-gradient(to bottom, #67eba5, #51b37f);
 }
 
 

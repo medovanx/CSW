@@ -21,9 +21,11 @@ button {
   padding: 9px 15px;
   border: none;
   font-size: 16px;
+  background-image: linear-gradient(to bottom, #70e0aa, #4b9970);
+  text-shadow: 1px 1px 4px black;
 }
 
-a{
+a {
   color: white;
   text-decoration: none;
 }
@@ -33,16 +35,18 @@ button:hover {
   background: #04AA6D;
   transform: scale(1.1);
   cursor: pointer;
+  background-image: linear-gradient(to bottom, #67eba5, #51b37f);
+
 }
 
-.main{
+.main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: calc(100vh - 60px);
 }
 
-.container{
+.container {
   max-width: 450px;
   margin: auto;
   padding: 20px;
@@ -55,7 +59,14 @@ button:hover {
   border-radius: 30px;
 }
 
-h1{
+h1 {
   font-family: Roboto;
   font-size: 30px;
+  color: #a2f9d0;
+  text-shadow: 1px 1px 4px #000000;
+}
+
+p{
+  color: white;
+  text-shadow: 0px 1px 4px #000000;
 }
