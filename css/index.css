@@ -180,13 +180,13 @@ p.content_trending {
   margin: 8px;
 }
 
-.firstcontent form button {
+.search_icon {
   background-image: linear-gradient(to bottom, #83dfb3, #1f9c5e);
   border-radius: 10px;
   border: none;
 }
 
-.firstcontent form button:hover {
+.search_icon:hover {
   background-image: linear-gradient(to bottom, #83dfb3, #1cd97b);
 }
 

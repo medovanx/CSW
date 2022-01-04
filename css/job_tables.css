@@ -75,7 +75,7 @@ tbody tr:hover {
   color: #2d7163;
 }
 
-button {
+td .enlarge {
   border-radius: 25px;
   color: white;
   padding: 12px 40px;
@@ -88,16 +88,15 @@ button {
 }
 
 /*hovering over details button*/
-button:hover {
+td .enlarge:hover {
   cursor: pointer;
   background: #4dbda7;
   transform: scale(1.1);
+  
 }
-
 a{
-  color:white;
+  color: white;
 }
-
 .container{
   display: flex;
   align-items: center;

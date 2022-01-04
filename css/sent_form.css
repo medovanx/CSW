@@ -14,7 +14,7 @@
 }
 
 /*button color*/
-button {
+.container .enlarge {
   background: #000000;
   color: white;
   border-radius: 20px;
@@ -31,7 +31,7 @@ a {
 }
 
 /*Button color when hovered*/
-button:hover {
+.enlarge:hover {
   background: #04AA6D;
   transform: scale(1.1);
   cursor: pointer;
