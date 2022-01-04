@@ -84,7 +84,7 @@ td .enlarge {
   background: #009879;
   /*for smaller screens*/
   white-space: nowrap;
-  
+
 }
 
 /*hovering over details button*/
@@ -92,12 +92,14 @@ td .enlarge:hover {
   cursor: pointer;
   background: #4dbda7;
   transform: scale(1.1);
-  
+
 }
-a{
+
+a {
   color: white;
 }
-.container{
+
+.container {
   display: flex;
   align-items: center;
   flex-direction: column;
