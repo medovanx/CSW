@@ -33,7 +33,7 @@
 }
 
 /* Select all form inputs with type text and email and also include (textarea) for subject*/
-form input,
+form input[type=text], form input[type=email],
 select,
 textarea {
   /*fixed width*/
@@ -112,3 +112,10 @@ textarea {
   height: 150px;
 }
 
+.radio{
+  padding: 12px;
+  background-color: #ffffff5e;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}

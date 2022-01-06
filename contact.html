@@ -75,7 +75,19 @@
 					<option value="FR">France</option>
 					<option value="USA">USA</option>
 				</select>
+				<label for="inquiry_type">What's your inquiry about?</label>
 
+				<div class="radio">
+					<div class="radio1">
+						<input type="radio" id="inquiry_type" name="job" value="Inquiry" required>
+						<label for="inquiry_type">Inquiry</label>	
+					</div>
+					<div class="radio2">
+						<input type="radio" id="inquiry_type" name="job" value="Applying for job">
+						<label for="inquiry_type">Applying for a job</label>	
+					</div>
+				</div>
+<br>
 				<label for="subject">Message</label>
 				<textarea id="subject" name="subject" placeholder="Write what's your inquiry about!"
 					required></textarea>
