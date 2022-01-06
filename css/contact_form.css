@@ -15,7 +15,7 @@
 /* Add a background color and some padding around the form */
 .container {
   /*fixed container width*/
-  width: 35vw;
+  width: 40vw;
   display: flex;
   justify-content: center;
   padding: 10px 30px;
