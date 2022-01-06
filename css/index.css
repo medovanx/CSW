@@ -32,9 +32,9 @@
   justify-content: center;
 
   /*Axis for column is <<>>*/
-  align-items: center;
   /*≡*/
   flex-direction: column;
+  text-align: center;
 }
 
 .description .main_title {
@@ -339,14 +339,22 @@ footer p {
   line-height: 20px;
 }
 
-a {
+.content a {
   color: black;
 }
 
-a:hover {
+.content a:hover {
   color: teal;
 }
 
 .cards_contact_all {
   height: 100%;
+}
+
+.content_trending a{
+  color: #9ffacf;
+}
+
+.content_trending a:hover {
+  color: #c2ecd9
 }
