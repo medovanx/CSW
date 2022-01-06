@@ -12,7 +12,7 @@ body {
 
 .job_header li {
     display: inline;
-    padding: 0 20px;
+    padding: 5px 45px;
     margin: 0 5px;
     background-color: #78C6A3;
     border-radius: 20px;
@@ -84,16 +84,20 @@ body {
     align-items: center;
 }
 
-.body_content_requirement a, .body_content_about a, .body_content_description a{
-    cursor:pointer;
+.body_content_requirement a,
+.body_content_about a,
+.body_content_description a {
+    cursor: pointer;
     padding: 15px 20px;
-    color:white;
+    color: white;
     border-radius: 15px;
-    border:none;
+    border: none;
     background-image: linear-gradient(to bottom, #70e0aa, #4b9970);
 }
 
-.body_content_requirement a:hover, .body_content_about a:hover, .body_content_description a:hover{
+.body_content_requirement a:hover,
+.body_content_about a:hover,
+.body_content_description a:hover {
     background-color: #17bb7a;
     background-image: linear-gradient(to bottom, #67eba5, #51b37f);
 }
