@@ -76,7 +76,7 @@ tbody tr:hover {
   color: #2d7163;
 }
 
-td .enlarge {
+td a {
   border-radius: 25px;
   color: white;
   padding: 12px 40px;
@@ -89,7 +89,7 @@ td .enlarge {
 }
 
 /*hovering over details button*/
-td .enlarge:hover {
+td a:hover {
   cursor: pointer;
   background: #4dbda7;
   transform: scale(1.1);
