@@ -60,23 +60,9 @@ body {
     color: #000000;
 }
 
+.body_content_requirement,
+.body_content_about,
 .body_content_description {
-    margin: 0 auto;
-    width: 35vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.body_content_requirement {
-    margin: 0 auto;
-    width: 35vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.body_content_about {
     margin: 0 auto;
     width: 35vw;
     display: flex;

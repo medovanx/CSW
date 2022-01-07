@@ -85,15 +85,14 @@ td a {
   background: #009879;
   /*for smaller screens*/
   white-space: nowrap;
-
+  /*transform is not applicable to inline elements such as <a>*/
+  display: inline-block;
 }
 
 /*hovering over details button*/
 td a:hover {
-  cursor: pointer;
   background: #4dbda7;
   transform: scale(1.1);
-
 }
 
 a {
