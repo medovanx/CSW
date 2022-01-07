@@ -34,7 +34,7 @@ body {
 
 .details {
     display: flex;
-    width: 300px;
+    width: 335px;
     justify-content: space-between;
     color: white;
 }
