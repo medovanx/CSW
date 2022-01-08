@@ -2,6 +2,7 @@ body {
     background-color: #dbfff4;
 }
 
+
 .job_header {
     padding: 20px;
     display: flex;
@@ -26,12 +27,14 @@ body {
     text-shadow: 1px 1px 3px black;
 }
 
+/*company logo*/
 .job_header img {
     border-radius: 50%;
     width: 150px;
     height: 150px;
 }
 
+/*location and salary*/
 .details {
     display: flex;
     width: 335px;
@@ -44,7 +47,7 @@ body {
     justify-content: center;
     color: white;
 }
-
+/*tabs*/
 .job_body li {
     display: inline;
     padding: 0 20px;
@@ -54,6 +57,7 @@ body {
 .job_body a {
     text-decoration: none;
     color: #a7a7a7;
+    margin-bottom: 20px;
 }
 
 .job_body .active {
@@ -70,6 +74,7 @@ body {
     align-items: center;
 }
 
+/*apply button*/
 .body_content_requirement a,
 .body_content_about a,
 .body_content_description a {
@@ -79,6 +84,7 @@ body {
     border-radius: 15px;
     border: none;
     background-image: linear-gradient(to bottom, #70e0aa, #4b9970);
+    margin-bottom: 20px;
 }
 
 .body_content_requirement a:hover,
