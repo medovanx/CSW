@@ -59,15 +59,6 @@
   filter: invert(100%) drop-shadow(3px 2px 4px #000000);
 }
 
-/*search container wrapper*/
-.searchx {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100px;
-}
-
 /*hovering over logo container = .search container appears (the height and width change)*/
 .search_icon_container:hover .search {
   margin-top: 20px;
