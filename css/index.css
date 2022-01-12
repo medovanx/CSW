@@ -15,6 +15,7 @@
 
 * {
   box-sizing: border-box;
+
 }
 
 .main {
@@ -23,7 +24,7 @@
   /*the direction is row*/
   justify-content: center;
   /*minus the navbar height from the body*/
-  min-height: calc(100vh - 60px);
+  height: calc(100vh - 60px);
 }
 
 .description {
@@ -195,6 +196,7 @@ form button:hover {
   height: 100vh;
   display: flex;
   background-color: rgba(194, 229, 221, 0.40);
+
 }
 
 /*The left sections*/
